@@ -4,3 +4,4 @@ contact-management-frontend/node_modules/
 *.env
 .DS_Store
 venv/
+venv/
