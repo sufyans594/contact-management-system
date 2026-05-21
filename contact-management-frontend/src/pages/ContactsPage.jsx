@@ -58,7 +58,7 @@ export default function ContactsPage() {
   const getColor = (name) => avatarColors[name.charCodeAt(0) % avatarColors.length]
 
   return (
-    <div style={{ minHeight: '100vh', background: '#f8fafc' }}>
+    <div className="page-transition" style={{ minHeight: '100vh', background: '#f8fafc' }}>
       <Navbar />
 
       <div style={{ maxWidth: '900px', margin: '0 auto', padding: '32px 24px' }}>

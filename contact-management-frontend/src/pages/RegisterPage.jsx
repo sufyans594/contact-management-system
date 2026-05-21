@@ -29,7 +29,7 @@ export default function RegisterPage() {
   const labelStyle = { display: 'block', fontSize: '13px', fontWeight: '500', color: '#374151', marginBottom: '6px' }
 
   return (
-    <div style={{ minHeight: '100vh', background: '#f8fafc', display: 'flex' }}>
+    <div className="page-transition" style={{ minHeight: '100vh', background: '#f8fafc', display: 'flex' }}>
       {/* Left Panel */}
       <div style={{ width: '420px', background: '#0f172a', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', padding: '48px', flexShrink: 0 }}>
         <div>

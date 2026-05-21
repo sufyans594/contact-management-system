@@ -30,7 +30,7 @@ export default function ProfilePage() {
   const card = { background: '#fff', border: '1px solid #e2e8f0', borderRadius: '12px', padding: '24px', marginBottom: '16px' }
 
   if (!profile) return (
-    <div style={{ minHeight: '100vh', background: '#f8fafc' }}>
+    <div className="page-transition" style={{ minHeight: '100vh', background: '#f8fafc' }}>
       <Navbar />
       <p style={{ textAlign: 'center', marginTop: '80px', color: '#94a3b8', fontSize: '14px' }}>Loading...</p>
     </div>
@@ -39,7 +39,7 @@ export default function ProfilePage() {
   const initials = `${profile.firstName?.[0] || ''}${profile.lastName?.[0] || ''}`.toUpperCase()
 
   return (
-    <div style={{ minHeight: '100vh', background: '#f8fafc' }}>
+    <div className="page-transition" style={{ minHeight: '100vh', background: '#f8fafc' }}>
       <Navbar />
       <div style={{ maxWidth: '600px', margin: '0 auto', padding: '32px 24px' }}>
 
